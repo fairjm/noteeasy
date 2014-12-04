@@ -1,0 +1,56 @@
+<resources>
+
+    <string name="app_name">随手记</string>
+    <string name="menu_settings">设置</string>
+    <string name="title_activity_main">随手记</string>
+    <string name="close_float">关闭悬浮窗</string>
+    <string  name="about_problem">如果您有任何想法请告诉我:</string>
+    <string name="about_detail1">通过悬浮窗口</string>
+    <string name="about_detail2">让您在浏览网页、看电影时方便记录笔记</string>
+    <string name="about_version">版本  1.1.2</string>
+    
+    <string name="alert_dialog_close">关闭悬浮窗</string>
+    <string name="alert_dialog_open">打开悬浮窗</string>
+    <string name="alert_dialog_about">关于</string>
+    <string name="alert_dialog_quit">退出</string>
+    
+    <string name="floatview_editor_input">输入内容</string>
+    <string name="floatview_editor_save">保存</string>
+    <string name="floatview_editor_notes">查看笔记</string>
+    
+    <string name="main_search">查找</string>
+    <string name="main_load">加载完成</string>
+    
+    <string name="shownote_change">修改</string>
+    <string name="shownote_back">返回</string>
+    
+    <string name="main_toast">请输入查找内容</string>
+    <string name="main_choose">选择操作</string>
+    <string name="main_delete">删除笔记</string>
+    <string name="main_copy">复制到剪贴板</string>
+    <string name="main_manage">管理笔记</string>
+    
+    <string name="shownote_success">更新成功</string>
+    
+    <string name="floatvieweditor_input">请输入内容</string>
+    <string name="floatvieweditor_success">保存成功</string>
+    
+    <string name="showService_open">悬浮框打开</string>
+    <string name="showService_close">悬浮框关闭</string>
+    
+    <string name="ad_close">关闭</string>
+    
+    <string name="manage_title_bar">管理</string>
+    <string name="manage_all_delete">删除</string>
+    <string name="manage_have_deleted">删除成功</string>
+    <string name="manage_save_error">没有SD卡挂载</string>
+    <string name="manage_save">保存到SD卡</string>
+    <string name="manage_have_saved">记录已保存至</string>
+    <string name="manage_select_all">选择全部</string>
+    <string name="manage_unselect_all">取消选择</string>
+    <string name="manage_cancel_select">取消</string>
+    
+    <string name="manage_no_checked">请选择</string>
+    <string name="low_memory">内存过低..随手记关闭..未保存记录自动帮您保存了</string>
+    
+</resources>

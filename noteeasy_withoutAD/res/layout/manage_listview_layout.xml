@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/listview_shape"
+    android:orientation="horizontal" >
+   <CheckBox
+        android:id="@+id/manage_adapter_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:focusable="false"
+        android:padding="20dp" />
+    <TextView
+        android:id="@+id/manage_adapter_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@id/manage_adapter_checkbox"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:text="XXXXXXXXXX。。。"
+        android:textColor="#F0000000"
+        android:textSize="25dp" 
+        android:paddingTop="5dp"
+        android:paddingLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/manage_adapter_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/manage_adapter_content"
+        android:text="xxxx年xx月xx日 xx时xx分xx秒"
+        android:textColor="#B0000000"
+        android:textSize="10dp" 
+        android:paddingLeft="5dp"
+        android:paddingBottom="5dp"/>
+
+ 
+
+</RelativeLayout>

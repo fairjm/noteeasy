@@ -1,0 +1,108 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/floatview_editor_shape"
+        android:orientation="vertical" 
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp">
+
+
+        <TextView 
+            android:layout_marginTop="5dp"
+            android:id="@+id/editor_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/floatview_editor_input"
+            android:textColor="#C0000000"
+            android:textSize="20dp"
+            />
+        
+         <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp" />
+        <EditText
+            android:id="@+id/edittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="11dp"
+            android:gravity="top"
+            android:maxLines="5"
+            android:minLines="2"
+            android:scrollbars="vertical" 
+            />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp" />
+
+        
+        <ImageButton 
+            android:id="@+id/editor_cont"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:src="@android:drawable/arrow_down_float"
+            android:background="#00000000"
+            />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp" />
+                
+            <Button
+                android:id="@+id/editor_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_add"
+                android:text="@string/floatview_editor_save"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="11dp"
+                android:textColor="#ffffff"
+                android:visibility="gone" />
+            
+          <View
+            android:layout_width="fill_parent"
+            android:layout_height="5dp" />
+            
+             <Button
+                android:id="@+id/editor_back"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_back"
+                android:text="@string/floatview_editor_notes"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="11dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="#ffffff" 
+                android:visibility="gone"/>
+             
+
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp" />
+      </LinearLayout>
+</LinearLayout>
+
+    <Button
+        android:id="@+id/editor_close"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/png_cancel_large"
+        android:height="10dp"
+        android:width="10dp" />
+
+</FrameLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical"
+    android:background="@drawable/main_bg_white"
+    >
+    
+ <RelativeLayout 
+     android:id="@+id/manage_title_bar"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:background="@drawable/main_activity"
+     >
+  <TextView 
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:text="@string/manage_title_bar"
+      android:textSize="25dp"
+      android:padding="8dp"
+      android:textColor="#B0EBEBEB"      
+      />
+</RelativeLayout>
+
+     <LinearLayout 
+        android:id="@+id/manage_control_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        >
+       <Button
+           android:id="@+id/manage_delete"
+           android:layout_height="wrap_content"
+           android:layout_width="wrap_content"
+           android:layout_weight="1"
+           android:text="@string/manage_all_delete"
+           android:background="@drawable/btn_style_alert_dialog_special"
+           /> 
+        <Button
+           android:id="@+id/manage_save"
+           android:layout_height="wrap_content"
+           android:layout_width="wrap_content"
+           android:layout_weight="1"
+           android:text="@string/manage_save"
+           android:background="@drawable/btn_style_alert_dialog_cancel"
+           />   
+    </LinearLayout>
+    
+
+  <ListView
+      android:id="@+id/manage_list"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/manage_title_bar"
+      android:layout_above="@id/manage_control_bar" >
+</ListView>
+
+</RelativeLayout>

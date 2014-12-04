@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" 
+    android:background="@drawable/listview_shape">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="71dp"
+        android:layout_height="71dp"
+        android:src="@drawable/note_image" />
+
+    <TextView
+        android:id="@+id/mydate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="17dp"
+        android:textSize="10dp"
+        android:textColor="#B0000000"
+        android:text="xxxx年xx月xx日 xx时xx分xx秒" />
+
+    <TextView
+        android:id="@+id/my_content"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageView1"
+        android:textColor="#F0000000"
+        android:textSize="25dp"
+        android:text="XXXXXXXXXX。。。。。。" />
+
+</RelativeLayout>

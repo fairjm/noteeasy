@@ -1,0 +1,56 @@
+<resources>
+
+    <string name="app_name">EasyNote</string>
+    <string name="menu_settings">Setting</string>
+    <string name="title_activity_main">EasyNote</string>
+    <string name="close_float">Close Float</string>
+    <string name="about_problem">If you meet any problem:</string>
+    <string name="about_detail1">With the float</string>
+    <string name="about_detail2">you can take notes easily</string>
+    <string name="about_version">version  1.1.2</string>
+    
+    <string name="alert_dialog_close">Close the Float</string>
+    <string name="alert_dialog_open">Open the Float</string>
+    <string name="alert_dialog_about">About</string>
+    <string name="alert_dialog_quit">Quit</string>
+    
+    <string name="floatview_editor_input">Input</string>
+    <string name="floatview_editor_save">Save</string>
+    <string name="floatview_editor_notes">Notes</string>
+    
+    <string name="main_search">Search</string>
+    <string name="main_load">load succeeded</string>
+    
+    <string name="shownote_change">Update</string>
+    <string name="shownote_back">Back</string>
+    
+    <string name="main_toast">please input</string>
+    <string name="main_choose">Choose</string>
+    <string name="main_delete">Delete the note</string>
+    <string name="main_copy">Copy To Clipboard</string>
+    <string name="main_manage">Manage Notes</string>
+    
+    <string name="shownote_success">Succeeded</string>
+    
+    <string name="floatvieweditor_input">Please Input</string>
+    <string name="floatvieweditor_success">Succeeded</string>
+    
+    <string name="showService_open">Opened</string>
+    <string name="showService_close">Closed</string>
+    
+    <string name="ad_close">Close</string>
+    
+    <string name="manage_title_bar">Manage</string>
+    <string name="manage_all_delete">Delete</string>
+    <string name="manage_have_deleted">Deleted</string>
+     <string name="manage_save_error">No SDCard Mounted</string>
+    <string name="manage_save">Save</string>
+    <string name="manage_have_saved">The notes have saved to</string>
+    <string name="manage_select_all">Select All</string>
+    <string name="manage_unselect_all">Unselect All</string>
+    <string name="manage_cancel_select">Cancel</string>
+    
+    <string name="manage_no_checked">Please Check items</string>
+    
+    <string name="low_memory">Low memory,I have to quit and unsaved data has saved.^_^</string>
+</resources>
