@@ -1,7 +1,7 @@
 noteeasy
 ========
 
-a simple not android app using float window to take notes.
+a simple android app using float window to take notes.
 通过悬浮窗简单地记录笔记.
 
 去年做的第一个安卓app,现在基本停止了安卓app的开发和学习.  
